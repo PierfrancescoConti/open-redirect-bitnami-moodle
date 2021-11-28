@@ -7,11 +7,11 @@ import json
 def print_usage():
     s='''
 Usage:
-\t./'''+sys.argv[0]+''' <URL/Domain/IP>  
-\texamples:
-\t\t->  ./'''+sys.argv[0]+''' 192.168.161.178
-\t\t->  ./'''+sys.argv[0]+''' mymoodle.domain.com
-\t\t->  ./'''+sys.argv[0]+''' http://mymoodle.domain.com/
+\t'''+sys.argv[0]+''' <URL/Domain/IP>  
+Examples:
+\t->  '''+sys.argv[0]+''' 192.168.161.178
+\t->  '''+sys.argv[0]+''' mymoodle.domain.com
+\t->  '''+sys.argv[0]+''' http://mymoodle.domain.com/
 '''
     print(s)
     exit()
